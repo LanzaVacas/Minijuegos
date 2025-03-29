@@ -1,0 +1,11 @@
+The following problems were encountered while loading the config files:
+block_additions.cfg 'generic' #44: Problem while loading one of these numbers: false, false, 2, 2.0, -1, 0, 0.6, 2, 2.0, -1
+
+item_additions.cfg 'bows' #3: The following block or item doesn't seem to exist: 'lootplusplus:night_block.night_bow'.
+
+item_additions.cfg 'bows' #17: Entry had wrong number of parts: ' '.
+
+item_additions.cfg 'swords' #82: Problem while loading one of these numbers: 4s.0
+
+recipes.cfg 'add_shaped' #41: The following block or item doesn't seem to exist: 'lootplusplus:night_block.night_bow'.
+

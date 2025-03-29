@@ -1,0 +1,2 @@
+night_block.spirit_bomb_____Spirit Rock_____true_____25_____10_____0_____2
+night_block.boomerang_____Boomerang_____false_____7_____50_____0_____4_____1.0_____night_block.boomerang

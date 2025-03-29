@@ -1,0 +1,5 @@
+lootplusplus:illuminati_helmet_____-1_____{}_____16_____2_____0_____1.0_____none
+lootplusplus:illuminati_chestplate_____-1_____{}_____10_____20_____5_____1.0_____none
+lootplusplus:illuminati_leggings_____-1_____{}_____11_____2_____0_____1.0_____none
+lootplusplus:illuminati_boots_____-1_____{}_____8_____2_____1_____1.0_____none
+lootplusplus:illuminati_boots_____-1_____{}_____1_____4_____1_____1.0_____none

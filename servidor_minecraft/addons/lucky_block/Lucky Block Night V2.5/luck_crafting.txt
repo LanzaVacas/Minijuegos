@@ -1,0 +1,35 @@
+/jewels
+diamond=12
+diamond_block=100
+emerald=8
+emerald_block=80
+gold_ingot=6
+gold_block=60
+iron_ingot=3
+iron_block=30
+coal=1
+coal_block=10
+redstone=2
+redstone_block=20
+obsidian=15
+
+/Lapis
+dye:4=4
+lapis_block=40
+
+/lucky items
+golden_carrot=20
+golden_apple:0=40
+golden_apple:1=100
+nether_star=100
+dragon_egg=100
+end_portal_frame=15
+mycelium=5
+
+/unlucky items
+rotten_flesh=-5
+spider_eye=-10
+fermented_spider_eye=-20
+poisonous_potato=-10
+fish:3=-20
+bone=-5

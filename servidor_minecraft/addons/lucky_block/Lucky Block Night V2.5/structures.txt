@@ -1,0 +1,76 @@
+/ traps
+ID=anvil_trap,file=traps/anvil_trap.schematic,centerY=1,centerZ=2
+ID=lava_trap,file=traps/lava_trap.schematic,centerY=1
+ID=water_trap,file=traps/water_trap.schematic,centerY=1
+ID=water_trap_2,file=traps/water_trap_2.schematic,centerY=1
+ID=pit_trap,file=traps/pit_trap.schematic,centerY=19
+ID=tnt_trap,file=traps/tnt_trap.schematic,centerY=1
+ID=creeper_trap,file=traps/creeper_trap.schematic,centerY=14
+ID=tntpit_trap,file=traps/tntpit_trap.schematic,centerY=13
+ID=silverfish_trap,file=traps/silverfish_trap.schematic,centerY=1
+ID=fallinganvils,file=traps/fallinganvils.schematic,centerY=2
+
+/ lucky
+ID=lucky_fort,file=lucky/lucky_fort.schematic,overlayStruct=lucky_fort_inner,centerY=1
+ID=lucky_fort_inner,file=lucky/lucky_fort_inner.luckystruct,blockMode=overlay
+ID=lucky_temple,file=lucky/lucky_temple.schematic,overlayStruct=lucky_temple_inner,centerY=1
+ID=lucky_temple_inner,file=lucky/lucky_temple_inner.luckystruct,blockMode=overlay
+ID=wool_tower1,file=lucky/wool_tower1.schematic
+ID=wool_tower2,file=lucky/wool_tower2.schematic
+ID=wool_tower3,file=lucky/wool_tower3.schematic
+ID=wool_tower4,file=lucky/wool_tower4.schematic
+
+/ other
+ID=bedrock_problem,file=other/bedrock_problem.schematic
+ID=lucky_choice_left,file=other/lucky_choice_left.luckystruct
+ID=lucky_choice_right,file=other/lucky_choice_right.luckystruct
+ID=very_lucky_blocks,file=other/very_lucky_blocks.luckystruct
+ID=wishing_well,file=other/wishing_well.schematic,centerY=2
+ID=bouncing_castle,file=other/bouncing_castle.schematic,centerY=1
+ID=storage_house,file=other/storage_house.schematic,centerY=1
+ID=small_home,file=other/small_home.schematic,centerY=1
+ID=large_house,file=other/large_house.schematic
+ID=nether_portal,file=other/nether_portal.schematic
+ID=enchantment_room,file=other/enchantment_room.schematic
+ID=lucky_squid_pool,file=other/lucky_squid_pool.schematic
+ID=miniforest,file=other/miniforest.schematic,centerY=1
+ID=mushroomforest,file=other/mushroomforest.schematic,centerY=1
+ID=night_well,file=other/night_well.schematic,centerY=2
+ID=lucky_block_building,file=other/lucky_block_building.schematic,centerY=1
+
+/ spawners
+ID=blaze_spawner,file=spawners/blaze_spawner.schematic
+ID=ghast_spawner,file=spawners/ghast_spawner.schematic
+ID=guardian_spawner,file=spawners/guardian_spawner.schematic
+ID=witch_spawner,file=spawners/witch_spawner.schematic
+ID=creeper_spawner,file=spawners/creeper_spawner.schematic
+ID=enderman_spawner,file=spawners/enderman_spawner.schematic
+ID=iron_golem_spawner,file=spawners/iron_golem_spawner.schematic
+ID=pigman_spawner,file=spawners/pigman_spawner.schematic
+ID=mooshroom_spawner,file=spawners/mooshroom_spawner.schematic
+
+/ giant blocks
+ID=giant_block_break_stage_1,file=giant_blocks/break_stage_1.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_2,file=giant_blocks/break_stage_2.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_3,file=giant_blocks/break_stage_3.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_4,file=giant_blocks/break_stage_4.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_5,file=giant_blocks/break_stage_5.schematic,blockMode=overlay,centerZ=7
+ID=giant_lucky_block_good,file=giant_blocks/giant_lucky_block.schematic,centerZ=7,overlayStruct=giant_lucky_block_inner_good
+ID=giant_lucky_block_inner_good,file=giant_blocks/giant_lucky_block_inner_good.luckystruct,blockMode=overlay,centerZ=7
+ID=giant_lucky_block_bad,file=giant_blocks/giant_lucky_block.schematic,centerZ=7,overlayStruct=giant_lucky_block_inner_bad
+ID=giant_lucky_block_inner_bad,file=giant_blocks/giant_lucky_block_inner_bad.luckystruct,blockMode=overlay,centerZ=7
+
+/ natural gen
+ID=gen_good,file=gen/gen_good.schematic
+ID=stone_structure,file=gen/stone_structure.schematic
+ID=nether_structure,file=gen/nether_structure.schematic
+ID=glowstone_structure,file=gen/glowstone_structure.schematic
+ID=wood_structure,file=gen/wood_structure.schematic
+ID=sandstone_structure,file=gen/sandstone_structure.schematic
+ID=end_structure,file=gen/end_structure.schematic
+ID=skyscraper,file=gen/skyscraper.schematic
+ID=nether_tower,file=gen/nether_tower.schematic
+ID=end_shrine,file=gen/end_shrine.schematic
+ID=wool_tree,file=gen/wool_tree.schematic
+
+

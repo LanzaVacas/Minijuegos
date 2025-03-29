@@ -1,0 +1,46 @@
+lootplusplus:night_block.night_apple_____1_____0_____{}_____nnn,nan,nnn_____n_____lootplusplus:night_block.night_ingot_____0_____{}_____a_____minecraft:apple_____0_____{}
+lootplusplus:night_block.midnight_apple_____1_____0_____{}_____nnn,nan,nnn_____n_____lootplusplus:night_block.night_block_____0_____{}_____a_____minecraft:apple_____0_____{}
+lootplusplus:night_block.night_carrot_____1_____0_____{}_____ n ,ncn, n _____n_____lootplusplus:night_block.night_ingot_____0_____{}_____c_____minecraft:carrot_____0_____{}
+lootplusplus:night_block.night_block_____1_____0_____{}_____nnn,nnn,nnn_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_chestplate_____1_____0_____{}_____n n,nnn,nnn_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_leggings_____1_____0_____{}_____nnn,n n,n n_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_helmet_____1_____0_____{}_____nnn,n n,   _____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_boots_____1_____0_____{}_____n n,n n,   _____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_sword_____1_____0_____{}_____ n , n , s _____s_____minecraft:stick_____0_____{}_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_bigsword_____1_____0_____{}_____ n , n , s _____s_____lootplusplus:night_block.night_sword_____0_____{}_____n_____lootplusplus:night_block.night_block_____0_____{}
+lootplusplus:night_block.night_pickaxe_____1_____0_____{}_____nnn, s , s _____s_____minecraft:stick_____0_____{}_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_axe_____1_____0_____{}_____nn ,ns , s _____s_____minecraft:stick_____0_____{}_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_shovel_____1_____0_____{}_____ n , s , s _____s_____minecraft:stick_____0_____{}_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_hoe_____1_____0_____{}_____nn , s , s _____s_____minecraft:stick_____0_____{}_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_bow_____1_____0_____{}_____ n ,nbn, n _____n_____lootplusplus:night_block.night_ingot_____0_____{}_____b_____minecraft:bow_____0_____{}
+lootplusplus:night_block.night_katana_____1_____0_____{}_____ n , n , s _____s_____lootplusplus:night_block.night_sword_____0_____{}_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_dagger_____1_____0_____{}_____ n , s ,   _____s_____minecraft:stick_____0_____{}_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_stone_bricks_____1_____0_____{}_____nn ,nn ,   _____n_____lootplusplus:night_block.night_stone_____0_____{}
+lootplusplus:night_block.night_melon_____1_____0_____{}_____ n , m ,   _____m_____minecraft:melon_____0_____{}_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_furnace_____1_____0_____{}_____nnn,n n,nnn_____n_____lootplusplus:night_block.night_stone_____0_____{}
+lootplusplus:night_block.boomerang_____1_____0_____{}_____ns ,s  ,   _____n_____lootplusplus:night_block.night_stone_____0_____{}_____s_____minecraft:stick_____0_____{}
+lootplusplus:night_block.night_poisonsword_____1_____0_____{}_____ene,ene,ese_____n_____lootplusplus:night_block.night_ingot_____0_____{}_____e_____minecraft:spider_eye_____0_____{}_____s_____minecraft:stick_____0_____{}
+lootplusplus:night_block.night_withersword_____1_____0_____{}_____wnw,bnb,bsb_____n_____lootplusplus:night_block.night_ingot_____0_____{}_____w_____minecraft:skull_____1_____{}_____s_____minecraft:stick_____0_____{}_____b_____minecraft:bone_____0_____{}
+lootplusplus:night_block.versatile_nightsword_____1_____0_____{}_____abc,def,ghi_____a_____minecraft:skull_____1_____{}_____b_____minecraft:nether_star_____0_____{}_____c_____minecraft:bone_____0_____{}_____d_____minecraft:spider_eye_____0_____{}_____e_____minecraft:rotten_flesh_____0_____{}_____f_____minecraft:fermented_spider_eye_____0_____{}_____g_____minecraft:redstone_____0_____{}_____h_____lootplusplus:night_block.night_bigsword_____0_____{}_____i_____minecraft:glowstone_dust_____0_____{}
+lootplusplus:night_block.waffle_____1_____0_____{}_____www,w w,www_____w_____minecraft:wheat_____0_____{}
+lootplusplus:night_block.chocolate_waffle_____1_____0_____{}_____ c , w _____c_____minecraft:dye_____3_____{}_____w_____lootplusplus:night_block.waffle_____0_____{}
+lootplusplus:night_block.buttermilk_waffle_____1_____0_____{}_____ g , m , w _____g_____minecraft:gold_ingot_____0_____{}_____m_____minecraft:milk_bucket_____0_____{}_____w_____lootplusplus:night_block.waffle_____0_____{}
+lootplusplus:night_block.night_nugget_____9_____0_____{}_____   , n ,   _____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_ingot_____1_____0_____{}_____nnn,nnn,nnn_____n_____lootplusplus:night_block.night_nugget_____0_____{}
+lootplusplus:night_block.night_stone_stairs_____6_____0_____{}_____n  ,nn ,nnn_____n_____lootplusplus:night_block.night_stone_____0_____{}
+lootplusplus:night_block.night_stonebrick_stairs_____6_____0_____{}_____n  ,nn ,nnn_____n_____lootplusplus:night_block.night_stone_bricks_____0_____{}
+lootplusplus:night_block.night_fence_____16_____0_____{}_____   ,nnn,nnn_____n_____lootplusplus:night_block.night_ingot_____0_____{}
+lootplusplus:night_block.night_cobblestone_____8_____0_____{}_____cn ,nc ,   _____n_____lootplusplus:night_block.night_stone_____0_____{}_____c_____minecraft:cobblestone_____0_____{}
+lootplusplus:night_block.night_cobblestone_____8_____0_____{}_____nc ,cn ,   _____n_____lootplusplus:night_block.night_stone_____0_____{}_____c_____minecraft:cobblestone_____0_____{}
+lootplusplus:night_block.magma_ingot_____1_____0_____{}_____ m , i ,   _____m_____minecraft:magma_cream_____0_____{}_____i_____minecraft:iron_ingot_____0_____{}
+lootplusplus:night_block.magma_chestplate_____1_____0_____{}_____m m,mmm,mmm_____m_____lootplusplus:night_block.magma_ingot_____0_____{}
+lootplusplus:night_block.magma_leggings_____1_____0_____{}_____mmm,m m,m m_____m_____lootplusplus:night_block.magma_ingot_____0_____{}
+lootplusplus:night_block.magma_helmet_____1_____0_____{}_____mmm,m m,   _____m_____lootplusplus:night_block.magma_ingot_____0_____{}
+lootplusplus:night_block.magma_boots_____1_____0_____{}_____m m,m m,   _____m_____lootplusplus:night_block.magma_ingot_____0_____{}
+lootplusplus:night_block.magma_sword_____1_____0_____{ench:[{id:20,lvl:3}]}_____ m , m , s _____s_____minecraft:stick_____0_____{}_____m_____lootplusplus:night_block.magma_ingot_____0_____{}
+lootplusplus:night_block.spiky_chestplate_____1_____0_____{ench:[{id:7,lvl:5},{id:34,lvl:3}]}_____c c,ccc,ccc_____c_____lootplusplus:night_block.cactus_ingot_____0_____{}
+lootplusplus:night_block.spiky_leggings_____1_____0_____{ench:[{id:7,lvl:5},{id:34,lvl:3}]}_____ccc,c c,c c_____c_____lootplusplus:night_block.cactus_ingot_____0_____{}
+lootplusplus:night_block.spiky_helmet_____1_____0_____{ench:[{id:7,lvl:5},{id:34,lvl:3}]}_____ccc,c c,   _____c_____lootplusplus:night_block.cactus_ingot_____0_____{}
+lootplusplus:night_block.spiky_boots_____1_____0_____{ench:[{id:7,lvl:5},{id:34,lvl:5}]}_____c c,c c,   _____c_____lootplusplus:night_block.cactus_ingot_____0_____{}
+lootplusplus:night_block.cactus_ingot_____1_____0_____{}_____ c ,cic, c _____i_____minecraft:iron_ingot_____0_____{}_____c_____minecraft:cactus_____0_____{}
+

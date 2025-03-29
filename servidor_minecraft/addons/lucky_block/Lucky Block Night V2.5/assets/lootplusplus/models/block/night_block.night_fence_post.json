@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_post",
+    "textures": {
+        "texture": "lootplusplus:blocks/night_block.night_block"
+    }
+}

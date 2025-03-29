@@ -1,0 +1,7 @@
+night_block.night_apple_____Night Apple_____false_____16_____1.5_____false_____true_____26_____10-2000-1-1.0-normal_____22-2800-1-1.0-normal_____16-6400-0-1.0-normal_____11-2000-0-1.0-normal
+night_block.midnight_apple_____Midnight Apple_____true_____20_____2.2_____false_____true_____32_____10-1600-2-1.0-normal_____11-3000-3-1.0-normal_____12-3500-1-1.0-normal_____14-3500-0-1.0-normal_____16-7200-0-1.0-normal_____22-3200-2-1.0-normal_____23-3500-3-1.0-normal_____15-2-0-1.0-none
+night_block.night_carrot_____Night Carrot_____false_____12_____1.5_____false_____true_____26_____10-1000-1-1.0-normal_____16-4800-0-1.0-normal_____23-2400-0-1.0-normal
+night_block.night_melon_____Night Melon_____false_____8_____1.0_____false_____true_____22_____5-1500-1-1.0-normal
+night_block.waffle_____Waffle_____false_____12_____1.9_____false_____false_____32
+night_block.chocolate_waffle_____Chocolate Waffle_____false_____12_____1.9_____false_____false_____32_____1-3000-1-2.0-normal
+night_block.buttermilk_waffle_____Buttermilk Waffle_____false_____14_____1.9_____false_____false_____32_____5-3000-1-2.0-normal

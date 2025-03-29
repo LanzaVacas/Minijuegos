@@ -1,0 +1,2 @@
+delta.emerald_apple_____§aEmerald Apple_____false_____6_____3_____false_____true_____32_____1-300-1-1.0-normal_____5-300-1-1.0-normal
+delta.enchanted_emerald_apple_____§2Emerald Apple_____true_____8_____4_____false_____true_____32_____1-3000-3-1.0-normal_____5-3000-3-1.0-normal_____8-3000-3-1.0-normal

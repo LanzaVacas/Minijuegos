@@ -1,0 +1,5 @@
+delta.life_ingot_____Life Ingot
+delta.lightsaber_handle_____Lightsaber Handle
+delta.lightsaber_core_____Lightsaber Core_____true
+delta.white_iron_ingot_____White-Iron Ingot
+delta.dark_iron_ingot_____Dark-Iron Ingot

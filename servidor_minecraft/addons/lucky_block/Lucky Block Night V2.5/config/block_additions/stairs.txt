@@ -1,0 +1,2 @@
+night_block.night_stone_stairs_____Night Stone Stairs_____lootplusplus:night_block.night_stone_____0
+night_block.night_stonebrick_stairs_____Night Stonebrick Stairs_____lootplusplus:night_block.night_stone_bricks_____0

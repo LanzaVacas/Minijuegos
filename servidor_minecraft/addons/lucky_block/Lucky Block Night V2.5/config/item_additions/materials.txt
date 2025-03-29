@@ -1,0 +1,4 @@
+lootplusplus:night_block.night_ingot_____-1_____3_____3000_____9.0_____4.0_____15_____47_____4-8-7-3
+lootplusplus:night_block.cactus_ingot_____-1_____3_____4500_____9.0_____4.0_____10_____47_____4-6-6-4
+lootplusplus:night_block.night_nugget_____-1_____3_____1000_____9.0_____4.0_____15_____37_____4-7-7-4
+lootplusplus:night_block.magma_ingot_____-1_____3_____500_____7.0_____5.0_____10_____49_____3-5-5-3

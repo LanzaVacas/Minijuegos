@@ -1,0 +1,3 @@
+lootplusplus:night_block.night_bigsword_____-1_____{}_____2_____2_____0_____1.0_____none
+lootplusplus:night_block.night_katana_____-1_____{}_____1_____2_____1_____1.0_____none
+lootplusplus:night_block.night_dagger_____-1_____{}_____1_____2_____3_____1.0_____none

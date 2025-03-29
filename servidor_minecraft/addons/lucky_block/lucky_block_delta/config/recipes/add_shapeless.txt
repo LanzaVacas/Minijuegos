@@ -1,0 +1,3 @@
+lootplusplus:delta.life_ingot_____1_____0_____{}_____"ingotGold"_____0_____{}_____minecraft:egg_____0_____{}_____minecraft:dye_____1_____{}
+lootplusplus:delta.white_iron_ingot_____1_____0_____{}_____"ingotIron"_____0_____{}_____"gemQuartz"_____0_____{}
+lootplusplus:delta.dark_iron_ingot_____1_____0_____{}_____"ingotIron"_____0_____{}_____minecraft:obsidian_____0_____{}

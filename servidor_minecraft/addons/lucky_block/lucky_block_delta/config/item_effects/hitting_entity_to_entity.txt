@@ -1,0 +1,5 @@
+lootplusplus:delta.emerald_heavy_sword_____-1_____{}_____9_____200_____0_____0.3_____none
+lootplusplus:delta.poison_dagger_____-1_____{}_____19_____200_____2_____0.9_____none
+lootplusplus:delta.shadow_blade_____-1_____{}_____15_____40_____0_____1.0_____none
+lootplusplus:delta.life_sword_____-1_____{}_____20_____40_____4_____0.1_____none
+lootplusplus:delta.darkness_blade_____-1_____{}_____20_____200_____2_____1.0_____normal

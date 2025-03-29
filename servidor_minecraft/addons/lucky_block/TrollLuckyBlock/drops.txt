@@ -1,0 +1,275 @@
+/-------------BLOCKS ------------
+
+/RANDOM ITEMS
+ID=stone,amount=#rand(20,40)@luck=0
+ID=planks,amount=#rand(20,40)@luck=0
+ID=bedrock,amount=#rand(20,40)@luck=0
+ID=sand,amount=#rand(20,40)@luck=0
+ID=log,amount=#rand(20,40)@luck=0
+ID=glass,amount=#rand(20,40)@luck=0
+ID=lapis_lazuli,amount=#rand(20,40)@luck=0
+ID=red_flower,amount=#rand(10,20)@luck=0
+group(ID=torch,amount=#rand(1,10);ID=ladder,amount=#rand(1,10);ID=stone_button,amount=#rand(1,10);ID=iron_bars,amount=#rand(1,10);ID=waterlilly,amount=#rand(1,10);ID=egg,amount=#rand(30,40))@luck=0
+group(type=item,ID=ladder,amount=#rand(50,200);type=message,ID="$5Ladders OP!")@luck=2
+group(ID=wooden_sword;ID=wooden_shovel;ID=wooden_pickaxe;ID=wooden_axe)@luck=0
+group(ID=stone_sword;ID=stone_shovel;ID=stone_pickaxe;ID=stone_axe)@luck=0
+group(ID=iron_sword;ID=iron_shovel;ID=iron_pickaxe;ID=iron_axe)@luck=0
+group(ID=coal,amount=#rand(10,20);ID=furnace)@luck=0
+group(ID=ender_pearl,amount=#rand(1,16);ID=ender_eye,amount=#rand(1,16))@luck=1
+group(ID=experience_bottle,amount=#rand(10,64))@luck=1
+group(ID=spawn_egg,amount=#rand(5,10),damage=#randSpawnEggDamage;ID=spawn_egg,amount=#rand(5,10),damage=#randSpawnEggDamage;ID=spawn_egg,amount=#rand(5,10),damage=#randSpawnEggDamage;ID=spawn_egg,/amount=#rand(5,10),damage=#randSpawnEggDamage)@luck=0
+group(ID=firewroks,amount=#rand(10,20))@luck=1
+group(ID=Tnt,amount=#rand(10,20);ID=flint_and_steel,amount=1)@luck=1
+group(ID=bucket,amount=#rand(1,5);ID=lava_bucket,amount=#rand(1,5);ID=water_bucket,amount=#rand(1,5);ID=milk_bucket,amount=#rand(1,5))@luck=1
+
+/ORES
+group(ID=iron_ingot,amount=#rand(10,20);type=particle,ID="happyVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="note.pling",volume=1.5)@luck=1
+group(ID=gold_ingot,amount=#rand(10,20);type=particle,ID="happyVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="note.pling",volume=1.5)@luck=1
+group(ID=diamond,amount=#rand(10,20);type=particle,ID="happyVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="note.pling",volume=1.5)@luck=1
+group(ID=emerald,amount=#rand(10,20);type=particle,ID="happyVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="note.pling",volume=1.5)@luck=1
+ID=anvil,amount=#rand(1,5)@luck=0
+ID=enchanting_table;ID=experience_bottle,amount=#rand(40,64)@luck=1
+
+/RANDOM ITEMS TROLLS
+group(ID=stone,amount=#rand(20,40);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=red_flower,amount=#rand(20,40);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=wooden_sword;ID=wooden_shovel;ID=wooden_pickaxe;ID=wooden_axe;type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=stone_sword;ID=stone_shovel;ID=stone_pickaxe;ID=stone_axe;type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=iron_sword;ID=iron_shovel;ID=iron_pickaxe;ID=iron_axe;type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=coal,amount=#rand(10,20);ID=furnace;type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=iron_ingot,amount=#rand(10,20);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=emerald,amount=#rand(10,20);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=diamond,amount=#rand(10,20);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=gold_ingot,amount=#rand(10,20);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=enchanting_table;ID=experience_bottle,amount=#rand(40,64);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(ID=anvil;type=explosion,radius=4,fire=false,delay=4)@luck=0
+
+
+/SUPER LUCKY ITEMS
+group(type=item,ID="lootplusplus:pizza",amount=#rand(1,5);type=particle,ID="happyVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="note.pling",volume=1.5)@luck=2
+group(type=item,ID="lootplusplus:pizza",amount=65;type=particle,ID="happyVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="note.pling",volume=1.5)@luck=2@chance=0.1
+group(type=item,ID="lootplusplus:troll_poop",amount=#rand(100,200),posY=#pPosY+3,posOffset=#circleOffset(2,2);type=particle,ID="townaura",size=(3,0.5,3),particleAmount=200)@luck=2
+
+/SPECIAL ITEMS
+
+type=item,ID="lootplusplus:command_trigger_item",NBTTag=(CommandList=["give @p lootplusplus:loot_item 1 0 {Type:trollPresent}","particle lava ~ ~ ~ 0.5 1 0.5 0.5 100","playsound liquid.lavapop @p ~ ~ ~ 10"],Unwrap=true,display=(Name="§7§lCommon Mystery Box",Lore=["§rRight click to open","§rContains a piece of §7§lCommon §rloot"]),PrimaryColor=16446423,SecondaryColor=16446423)@luck=2
+
+type=item,ID="lootplusplus:command_trigger_item",NBTTag=(CommandList=["give @p lootplusplus:loot_item 1 0 {Type:rarePresent}","particle lava ~ ~ ~ 0.5 1 0.5 0.5 100","playsound liquid.lavapop @p ~ ~ ~ 10"],Unwrap=true,display=(Name="§3§lRare Mystery Box",Lore=["§rRight click to open","§rContains a piece of §3§lRare §7§rloot"]),PrimaryColor=16446423,SecondaryColor=63740)@luck=2
+
+type=item,ID="lootplusplus:command_trigger_item",NBTTag=(CommandList=["give @p lootplusplus:loot_item 1 0 {Type:legPresent}","particle lava ~ ~ ~ 0.5 1 0.5 0.5 100","playsound liquid.lavapop @p ~ ~ ~ 10"],Unwrap=true,display=(Name="§6§lLegendary Mystery Box",Lore=["§rRight click to open","§rContains a piece of §6§lLegendary §7§rloot"]),PrimaryColor=16446423,SecondaryColor=16748800)@luck=2
+
+/--------TOOLS & WEAPONS----------
+
+
+/ULTIMATE SWORD
+group(type=item,ID="lootplusplus:illuminati_sword",NBTTag=(ench=[(id=20,lvl=10)],display=(Name="§6§kalal §4§lUltimate Illuminati Sword §6§kalal",Lore=["The Ultimate Weapon forged","by the ancient Illuminati","to conquer the WORLD!"]),AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=666666,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true);type=particle,ID="angryVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="note.pling",volume=8)@luck=2@chance=0.2
+
+/ULTIMATE HELMET
+group(type=item,ID="lootplusplus:illuminati_helmet",NBTTag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],display=(Name="§6§kalal §4§lUltimate Illuminati Helmet §6§kalal",Lore=["A piece of the The Ultimate","Armor forged by","the ancient Illuminati","to conquer the WORLD!"]),Unbreakable=true);type=particle,ID="angryVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="ambient.weather.thunder",volume=8)@luck=2@chance=0.2
+
+/ULTIMATE CHESTPLATE
+group(type=item,ID="lootplusplus:illuminati_chestplate",NBTTag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],display=(Name="§6§kalal §4§lUltimate Illuminati Chestplate §6§kalal",Lore=["A piece of the The Ultimate","Armor forged by","the ancient Illuminati","to conquer the WORLD!"]),AttributeModifiers=[(AttributeName=generic.maxHealth,Name="health",Amount=50,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true);type=particle,ID="angryVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="ambient.weather.thunder",volume=8)@luck=2@chance=0.2
+
+/ULTIMATE LEGGINGS
+group(type=item,ID="lootplusplus:illuminati_leggings",NBTTag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],display=(Name="§6§kalal §4§lUltimate Illuminati Leggings §6§kalal",Lore=["A piece of the The Ultimate","Armor forged by","the ancient Illuminati","to conquer the WORLD!"]),Unbreakable=true);type=particle,ID="angryVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="ambient.weather.thunder",volume=8)@luck=2@chance=0.2
+
+/ULTIMATE BOOTS
+group(type=item,ID="lootplusplus:illuminati_boots",NBTTag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],display=(Name="§6§kalal §4§lUltimate Illuminati Boots §6§kalal",Lore=["A piece of the The Ultimate","Armor forged by","the ancient Illuminati","to conquer the WORLD!"]),Unbreakable=true);type=particle,ID="angryVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="ambient.weather.thunder",volume=8)@luck=2@chance=0.2
+
+/ULTIMATE BOW
+group(type=item,ID="lootplusplus:illuminati_bow",NBTTag=(ench=[(id=48,lvl=10),(id=50,lvl=10),(id=51,lvl=1)],display=(Name="§6§kalal §4§lUltimate Illuminati Bow §6§kalal",Lore=["The Ultimate","Bow forged by","the ancient Illuminati","to conquer the WORLD!"]),Unbreakable=true);type=particle,ID="angryVillager",size=(0.5,0.5,0.5),particleAmount=20;type=sound,ID="ambient.weather.thunder",volume=8)@luck=2@chance=0.2
+
+/SUPER STICK
+type=item,ID=stick,NBTTag=(ench=[(id=19,lvl=666)],display=(Name="§7Troll Stick",Lore=["§r§7Knockback DCLXVI§r"]),HideFlags=1)@luck=2
+
+/RANDOM LUCKY TOOLS
+ID=diamond_sword,NBTTag=(ench=[(id=16,lvl=#rand(1,8)),(id=20,lvl=#rand(0,1)),(id=21,lvl=#rand(2,5)),(id=34,lvl=#rand(3,8))],display=(Name="§6Lucky Sword"))@luck=2
+ID=diamond_helmet,NBTTag=(ench=[(id=0,lvl=#rand(1,8)),(id=1,lvl=#rand(1,5)),(id=5,lvl=#rand(2,5)),(id=4,lvl=#rand(3,8))],display=(Name="§6Lucky Helmet"))@luck=2
+ID=diamond_chestplate,NBTTag=(ench=[(id=0,lvl=#rand(1,8)),(id=1,lvl=#rand(1,5)),(id=4,lvl=#rand(2,5)),(id=3,lvl=#rand(3,8))],display=(Name="§6Lucky Chestplate"))@luck=2
+ID=diamond_leggings,NBTTag=(ench=[(id=0,lvl=#rand(1,8)),(id=1,lvl=#rand(1,5)),(id=4,lvl=#rand(2,5)),(id=3,lvl=#rand(3,8))],display=(Name="§6Lucky Leggings"))@luck=2
+ID=diamond_boots,NBTTag=(ench=[(id=0,lvl=#rand(1,8)),(id=1,lvl=#rand(1,5)),(id=8,lvl=#rand(2,5)),(id=2,lvl=#rand(3,8))],display=(Name="§6Lucky Boots"))@luck=2
+ID=bow,NBTTag=(ench=[(id=48,lvl=#rand(1,8)),(id=49,lvl=#rand(1,5)),(id=50,lvl=#rand(2,5)),(id=51,lvl=#rand(3,8))],display=(Name="§6Lucky Bow"))@luck=2
+ID=diamond_pickaxe,NBTTag=(ench=[(id=32,lvl=#rand(1,8)),(id=34,lvl=#rand(1,5)),(id=35,lvl=#rand(2,5)),(id=33,lvl=#rand(0,1))],display=(Name="§6Lucky Pickaxe"))@luck=2
+ID=diamond_axe,NBTTag=(ench=[(id=32,lvl=#rand(1,8)),(id=34,lvl=#rand(1,5)),(id=35,lvl=#rand(2,5)),(id=33,lvl=#rand(0,1))],display=(Name="§6Lucky Axe"))@luck=2
+ID=diamond_shovel,NBTTag=(ench=[(id=32,lvl=#rand(1,8)),(id=34,lvl=#rand(1,5)),(id=35,lvl=#rand(2,5)),(id=33,lvl=#rand(0,1))],display=(Name="§6Lucky Shovel"))@luck=2
+ID=diamond_sword,NBTTag=(ench=[(id=16,lvl=10000000)],display=(Name="§6Super Lucky Sword",Lore=["§r§7Sharpness X","§r§7Fire Aspect X","§r§7Unbreaking X","§r§7Smite X","§r§7Looting X"," ","§9+120 Attack Damage"]),HideFlags=3)@luck=2
+ID=wooden_pickaxe,NBTTag=(ench=[(id=32,lvl=127)],display=(Name="§6Super Lucky Pickaxe"))@luck=2
+
+/VENOM
+type=item,ID="lootplusplus:venom_sword",NBTTag=(ench=[(id=16,lvl=10),(id=17,lvl=10),(id=18,lvl=10)],display=(Name="§4§kalal §2§lMighty Venom Sword §4§kalal",Lore=["Hit someone to poison","him $4FOREVER!"]),Unbreakable=true)@luck=2
+
+/WITHER
+type=item,ID="lootplusplus:wither_sword",NBTTag=(ench=[(id=16,lvl=10),(id=17,lvl=10),(id=18,lvl=10)],display=(Name="§4§kalal §8§lMighty Wither Sword §4§kalal",Lore=["Hit someone to unleash","the power of this Sword!"]),Unbreakable=true)@luck=2
+
+/HEAL WAND
+type=item,ID="lootplusplus:heal_wand",NBTTag=(ench=[(id=16,lvl=10000000)],display=(Name="§1§lH§2§le§3§la§4§ll§5§li§a§ln§6§lg §7§lW§9§la§1§ln§2§ld",Lore=["Hit someone to fully","regenerate him!"]),Unbreakable=true,HideFlags=3)@luck=2
+
+/LIFESTEAL
+type=item,ID="lootplusplus:vampire_sword",NBTTag=(ench=[(id=16,lvl=10),(id=17,lvl=10),(id=18,lvl=10)],display=(Name="§4§kalal §4§lVampire Sword §4§kalal",Lore=["Hit someone to suck","his health!"]),Unbreakable=true)@luck=2
+
+/TROLL
+type=item,ID="lootplusplus:troll_sword",NBTTag=(ench=[(id=16,lvl=10),(id=17,lvl=10),(id=18,lvl=10)],display=(Name="§4§kalal §8§lTroll Sword §4§kalal"),Unbreakable=true)@luck=2
+
+/MAGIC
+type=item,ID="lootplusplus:magic_sword",NBTTag=(display=(Name="§4§kalal §5§lMagic Sword §4§kalal"),Unbreakable=true)@luck=2
+
+/POOP WAND
+type=item,ID="lootplusplus:poop_wand",NBTTag=(display=(Name="§c§lPoop Wand",Lore=["Just read the name"]),Unbreakable=true)@luck=2
+
+/PAR WAND
+type=item,ID="lootplusplus:par_wand",NBTTag=(display=(Name="§c§lParalyze Wand",Lore=["Just read the name"]),Unbreakable=true)@luck=2
+
+
+/----------GEN STRUCTURES----------
+
+
+/ULTIMATE DUNGEON
+group(type=structure,ID=ud_1,pos=#pPos;type=structure,ID=ud_2,pos=#pPos;type=structure,ID=ud_3,pos=#pPos;type=structure,ID=ud_4,pos=#pPos;type=structure,ID=ud_5,pos=#pPos;type=structure,ID=ud_6,pos=#pPos;type=structure,ID=ud_7,pos=#pPos;type=structure,ID=ud_8,pos=#pPos;type=structure,ID=ud_9,pos=#pPos;type=entity,ID=Zombie,NBTTag=(CustomName="§6§kalal §4§lThe Emperor §6§kalal",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000),(Id=10,Amplifier=50,Duration=1000),(Id=11,Amplifier=4,Duration=1000)],CustomNameVisible=true,Equipment=[(id="lootplusplus:illuminati_sword",Count=1,tag=(ench=[(id=20,lvl=10)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=666666,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id="lootplusplus:illuminati_boots",Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id="lootplusplus:illuminati_leggings",Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id="lootplusplus:illuminati_chestplate",Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],AttributeModifiers=[(AttributeName=generic.maxHealth,Name="health",Amount=50,Operation=0,UUIDLeast=1,UUIDMost=1)])),(id=skull,Damage=3,Count=1,tag=(SkullOwner=MHF_Blaze))]),posY=#pPosY+35,posX=#pPosX+65;type=command,ID="/title @a title {text:"ULTIMATE DUNGEON",color:red}";type=sound,ID=ambient.weather.thunder,volume=3.0;type=entity,ID=Zombie,amount=20,NBTTag=(CustomName="§4§lBob",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000),(Id=10,Amplifier=50,Duration=10)],CustomNameVisible=true,Equipment=[(id=diamond_sword,Count=1,tag=(ench=[(id=20,lvl=10)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=15,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id=diamond_helmet,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_chestplate,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],AttributeModifiers=[(AttributeName=generic.maxHealth,Name="health",Amount=50,Operation=0,UUIDLeast=1,UUIDMost=1)])),(id=diamond_leggings,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_boots,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)]))]),posY=#pPosY+35,posX=#pPosX+62;type=entity,ID=Zombie,amount=10,NBTTag=(CustomName="Armored Zombie",CustomNameVisible=true,Equipment=[(id=iron_sword,Count=1),(id=iron_helmet,Count=1),(id=iron_chestplate,Count=1),(id=iron_leggings,Count=1,Damage=0),(id=iron_boots,Count=1)]),posY=#pPosY+3,posX=#pPosX+62;type=entity,ID=Zombie,amount=10,NBTTag=(CustomName="Armored Zombie",CustomNameVisible=true,Equipment=[(id=iron_sword,Count=1),(id=iron_helmet,Count=1),(id=iron_chestplate,Count=1),(id=iron_leggings,Count=1,Damage=0),(id=iron_boots,Count=1)]),posY=#pPosY+15,posX=#pPosX+62;type=entity,ID=Zombie,amount=10,NBTTag=(CustomName="Armored Zombie",CustomNameVisible=true,Equipment=[(id=iron_sword,Count=1),(id=iron_helmet,Count=1),(id=iron_chestplate,Count=1),(id=iron_leggings,Count=1,Damage=0),(id=iron_boots,Count=1)]),posY=#pPosY+25,posX=#pPosX+62;type=entity,ID=Skeleton,amount=10,NBTTag=(CustomName="Armored Skeleton",CustomNameVisible=true,Equipment=[(id=bow,Count=1),(id=iron_helmet,Count=1),(id=iron_chestplate,Count=1),(id=iron_leggings,Count=1,Damage=0),(id=iron_boots,Count=1)]),posY=#pPosY+3,posX=#pPosX+62;type=entity,ID=Skeleton,amount=10,NBTTag=(CustomName="Armored Skeleton",CustomNameVisible=true,Equipment=[(id=bow,Count=1),(id=iron_helmet,Count=1),(id=iron_chestplate,Count=1),(id=iron_leggings,Count=1,Damage=0),(id=iron_boots,Count=1)]),posY=#pPosY+15,posX=#pPosX+62;type=entity,ID=Skeleton,amount=10,NBTTag=(CustomName="Armored Skeleton",CustomNameVisible=true,Equipment=[(id=bow,Count=1),(id=iron_helmet,Count=1),(id=iron_chestplate,Count=1),(id=iron_leggings,Count=1,Damage=0),(id=iron_boots,Count=1)]),posY=#pPosY+25,posX=#pPosX+62;type=time,ID=15000)luck=0
+
+/TORCH SPAWNER
+type=structure,ID=torch_placer,pos=#pPos@luck=0
+
+/FALLING SAND
+type=structure,ID=troll_sand,posY=#pPosY+50@luck=-1
+
+/QUAD LUCKY BLOCK
+type=structure,ID=quadluck,pos=#pPos@luck=0
+
+/PIRAMID
+type=structure,ID=piramid,pos=#pPos@luck=0
+
+/NO TRAP
+type=structure,ID=inv_box,pos=#pPos@luck=-1
+
+/FIREWORKS
+type=structure,ID=fireworksss,pos=#pPos@luck=0
+
+/BUTTON
+type=structure,ID=ext,rotation=#pDirect@luck=0
+
+/HORSE STAND
+group(type=structure,ID=h_stand,rotation=#pDirect;type=entity,ID=EntityHorse,NBTTag=(Tame=1,Saddle=1,Type=4))@luck=0
+
+/PRISON TRAPS
+group(type=structure,ID=prison,pos=#pPos;type=block,ID=anvil,posY=#pPosY+10,posX=#pPosX,posZ=#pPosZ,blockUpdate=true;type=block,ID=anvil,posY=#pPosY+11,posX=#pPosX,posZ=#pPosZ,blockUpdate=true;type=block,ID=anvil,posY=#pPosY+12,posX=#pPosX,posZ=#pPosZ,blockUpdate=true;type=block,ID=anvil,posY=#pPosY+13,posX=#pPosX,posZ=#pPosZ,blockUpdate=true)@luck=-1
+group(type=structure,ID=prison,pos=#pPos;type=block,ID=flowing_lava,posY=#pPosY+3,posX=#pPosX,posZ=#pPosZ,blockUpdate=true)@luck=-1
+
+/WISHING WELLS
+group(type=structure,ID=wishingwell;type=message,ID="A Wishing Well. Maybe you should throw in...";type=command,ID="/give #pName lootplusplus:trollface 1 0 {display:{Name:"a Trollface"}}";type=block,ID=lucky:lucky_block_troll,posY=#bPosY-3,NBTTag=(Drops=["group(type=message,ID="$bYour pizza wish came true!";type=block,ID=air,posY='#'bPosY+4;type=block,ID=flowing_lava,posY=#bPosY+4;type=entity,ID=FireworksRocketEntity,NBTTag=(LifeTime=20,FireworksItem=(id=fireworks,tag='#'randFireworksRocket)),amount=20,posY='#'bPosY+3,posOffset='#'circleOffset(2);ID=lootplusplus:pizza,amount=#rand(3,10),posY='#'bPosY+10,posOffset='#'circleOffset(3);ID=golden_carrot,amount=#rand(20,30),posY='#'bPosY+10,posOffset='#'circleOffset(3))"]))@luck=2@chanche=0.5
+
+group(type=structure,ID=wishingwell;type=message,ID="A Wishing Well. Maybe you should throw in...";type=command,ID="/give #pName lootplusplus:trollface 1 0 {display:{Name:"a Trollface"}}";type=block,ID=lucky:lucky_block_troll,posY=#bPosY-3,NBTTag=(Drops=["group(type=message,ID="§4>:D";type=block,ID=air,posY='#'bPosY+4;type=block,ID=flowing_lava,posY=#bPosY+4;type=entity,ID=PrimedTnt,NBTTag=(Fuse=50b,Motion='#'randLaunchMotion),posY='#'bPosY+6,amount=40,posOffset='#'circleOffset(3))"]))@luck=-2
+
+group(type=structure,ID=wishingwell;type=message,ID="A Wishing Well. Maybe you should throw in...";type=command,ID="/give #pName lootplusplus:trollface 1 0 {display:{Name:"a Trollface"}}";type=block,ID=lucky:lucky_block_troll,posY=#bPosY-3,NBTTag=(Drops=["group(type=message,ID="$bYour undead wish came true!";type=block,ID=air,posY='#'bPosY+4;type=entity,ID=Zombie,posY=#bPosY+4,amount=10,posOffset='#'circleOffset(3);type=entity,ID=Skeleton,posY=#bPosY+4,amount=10,posOffset='#'circleOffset(3);type=entity,ID=Witch,posY=#bPosY+4,amount=10,posOffset='#'circleOffset(3))"]))@luck=-2
+
+group(type=structure,ID=wishingwell;type=message,ID="A Wishing Well. Maybe you should throw in...";type=command,ID="/give #pName lootplusplus:trollface 1 0 {display:{Name:"a Trollface"}}";type=block,ID=lucky:lucky_block_troll,posY=#bPosY-3,NBTTag=(Drops=["group(type=message,ID="$bYour wish came true!";type=block,ID=air,posY='#'bPosY+4;type=block,ID=flowing_lava,posY=#bPosY+4;type=entity,ID=FireworksRocketEntity,NBTTag=(LifeTime=20,FireworksItem=(id=fireworks,tag='#'randFireworksRocket)),amount=20,posY='#'bPosY+3,posOffset='#'circleOffset(2);ID=diamond,amount=#rand(10,20),posY='#'bPosY+10,posOffset='#'circleOffset(3);ID=gold_ingot,amount=#rand(20,30),posY='#'bPosY+10,posOffset='#'circleOffset(3);ID=iron_ingot,amount=#rand(20,30),posY='#'bPosY+10,posOffset='#'circleOffset(3);ID=emerald,amount=#rand(20,30),posY='#'bPosY+10,posOffset='#'circleOffset(3))"]))@luck=2
+
+
+
+/--------------TROLLS---------
+
+
+/APOCALYPSE
+/group(type=time,ID=13000;type=command,ID="/title @a title {text:"§6§kalal §4§lAPOCALYPSE §6§kalal",bold:true,color:red}";type=entity,ID=WitherBoss,amount=#rand(5,10);type=entity,ID=EnderDragon,amount=#rand(5,10),posY=20;type=entity,ID=Zombie,amount=#rand(20,40);type=entity,ID=Skeleton,amount=#rand(30,40);type=entity,ID=Spider,amount=#rand(30,40),type=entity,ID=EnderMan,amount=#rand(30,40);type=entity,ID=Creeper,amount=#rand(30,40);type=entity,ID=Giant,amount=#rand(5,10);type=entity,ID=Ghast,amount=#rand(30,40);type=entity,ID=Endermite,amount=#rand(30,40);type=entity,ID=PigZombie,amount=#rand(30,40);type=entity,ID=Slime,amount=#rand(30,40);type=entity,ID=Silverfish,amount=#rand(30,40);type=entity,ID=Blaze,amount=#rand(30,40);type=entity,ID=Guardian,amount=#rand(30,40);type=entity,ID=Witch,amount=#rand(30,40);type=entity,ID=LavaSlime,amount=#rand(30,40);type=entity,ID=LightningBolt,amount=50,posOffset=#circleOffset(10,10),delay=20;type=message,ID="if you are in trouble type /kill @e",delay=15)@luck=-2
+
+/NUKE
+group(type=entity,ID=PrimedTnt,posY=#pPosY+70,amount=50,posOffset=#circleOffset(10,10),NBTTag=(Fuse=90);type=entity,ID=PrimedTnt,posY=#pPosY+70,amount=50,posOffset=#circleOffset(8,8),NBTTag=(Fuse=90);type=entity,ID=PrimedTnt,posY=#pPosY+70,amount=50,posOffset=#circleOffset(4,4),NBTTag=(Fuse=90);type=entity,ID=PrimedTnt,posY=#pPosY+70,amount=50,posOffset=#circleOffset(20,20),NBTTag=(Fuse=90);type=entity,ID=PrimedTnt,posY=#pPosY+70,amount=50,posOffset=#circleOffset(30,30),NBTTag=(Fuse=90);type=command,ID="/title @a title {text:"NUKE!!!",bold:true,color:red}";type=sound,ID=mob.ghast.scream,volume=8.0)@luck=-2
+
+type=entity,ID=PrimedTnt,NBTTag=(Fuse=11000000)@luck=0
+
+/TROLL KILL
+group(type=command,ID="/title @p title {text:"You are going to die in"}";type=command,ID="/title @p subtitle {text:"3"}",delay=2;type=command,ID="/title @p subtitle {text:"2"}",delay=4;type=command,ID="/title @p subtitle {text:"1"}",delay=6;type=command,ID="/kill @p",delay=8)@luck=-2
+
+/LUCKY ANIMALS
+group(type=entity,ID=Cow,NBTTag=(CustomName="§dLucky Cow");type=entity,ID=LightningBolt,amount=20,delay=5)@luck=0
+group(type=entity,ID=Pig,NBTTag=(CustomName="§dMorphing Pig");type=entity,ID=LightningBolt,amount=40,delay=5)@luck=0
+group(type=entity,ID=Sheep,NBTTag=(CustomName="§dLucky Sheep");type=entity,ID=LightningBolt,amount=20,delay=5)@luck=0
+group(type=entity,ID=Rabbit,NBTTag=(CustomName="§dLucky Rabbit");type=entity,ID=LightningBolt,amount=20,delay=5)@luck=0
+group(type=entity,ID=Chicken,NBTTag=(CustomName="§dLucky Chicken");type=entity,ID=LightningBolt,amount=20,delay=5)@luck=0
+type=enity,ID=Sheep@luck=0
+group(type=entity,ID=Sheep;type=explosion,radius=4,fire=false,delay=4)@luck=-1
+type=entity,ID=Rabbit@luck=0
+group(type=entity,ID=Rabbit;type=explosion,radius=4,fire=false,delay=4)@luck=-1
+type=entity,ID=Cow@luck=0
+group(type=entity,ID=Cow;type=explosion,radius=4,fire=false,delay=4)@luck=-1
+
+/MR PINK SHEEP
+type=entity,ID=Sheep,NBTTag=(Color=6,Invulnerable=true,CustomName="§dPink Sheep")@luck=1
+
+/--------------MOBS----------------
+
+/THE EMPEROR!!
+group(type=entity,ID=Zombie,NBTTag=(CustomName="§6§kalal §4§lThe Emperor §6§kalal",ActiveEffects=[(Id=1,Amplifier=3,Duration=100000),(Id=10,Amplifier=10,Duration=1000000),(Id=11,Amplifier=10,Duration=1000000)],CustomNameVisible=true,Equipment=[(id="lootplusplus:illuminati_sword",Count=1,tag=(ench=[(id=20,lvl=10)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=666666,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id="lootplusplus:illuminati_boots",Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id="lootplusplus:illuminati_leggings",Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id="lootplusplus:illuminati_chestplate",Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],AttributeModifiers=[(AttributeName=generic.maxHealth,Name="health",Amount=6666,Operation=0,UUIDLeast=1,UUIDMost=1)])),(id=skull,Damage=3,Count=1,tag=(SkullOwner=MHF_Blaze))]);type=particle,ID="lava",size=(1.5,2,1.5),particleAmount=500;type=sound,ID="mob.blaze.breathe",volume=5)@luck=-2
+
+/SPAWN EGGS!
+type=item,ID="lootplusplus:custom_spawn_egg",amount=#rand(10,20),NBTTag=(display=(Name="§4§lSpawn The Emperor!"),EntityName=Zombie,EntityData=(CustomName="§6§kalal §4§lThe Emperor §6§kalal",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000000),(Id=10,Amplifier=50,Duration=1000000),(Id=11,Amplifier=4,Duration=1000000)],CustomNameVisible=true,Equipment=[(id="lootplusplus:illuminati_sword",Count=1,tag=(ench=[(id=20,lvl=10)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=666666,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id="lootplusplus:illuminati_boots",Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id="lootplusplus:illuminati_leggings",Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id="lootplusplus:illuminati_chestplate",Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],AttributeModifiers=[(AttributeName=generic.maxHealth,Name="health",Amount=500,Operation=0,UUIDLeast=1,UUIDMost=1)])),(id=skull,Damage=3,Count=1,tag=(SkullOwner=MHF_Blaze))]),PrimaryColor=55322212,SecondaryColor=65284611)@luck=2@chance=0.5
+
+type=item,ID="lootplusplus:custom_spawn_egg",amount=#rand(10,20),NBTTag=(display=(Name="§4§lSpawn Clock Bomb!"),EntityName=Creeper,EntityData=(ignited=1,ExplosionRadius=50,ActiveEffects=[(Id=14,Duration=100000,Amplifier=1,ShowParticles=false)]),PrimaryColor=65284611,SecondaryColor=44567876)@luck=2
+
+/RANDOM WITHERS
+type=entity,ID=WitherBoss,NBTTag=(Invul=10000,CustomName="Dinnerbone")@luck=-2
+type=entity,ID=WitherBoss,NBTTag=(CustomName="Dinnerbone")@luck=-2
+
+/BOB
+type=entity,ID=Zombie,NBTTag=(CustomName="§4§lBob",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000),(Id=10,Amplifier=50,Duration=10)],CustomNameVisible=true,Equipment=[(id=diamond_sword,Count=1,tag=(ench=[(id=20,lvl=10)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=15,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id=diamond_helmet,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_chestplate,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],AttributeModifiers=[(AttributeName=generic.maxHealth,Name="health",Amount=50,Operation=0,UUIDLeast=1,UUIDMost=1)])),(id=diamond_leggings,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_boots,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)]))])@luck=-2
+
+/BOB JR
+type=entity,ID=Zombie,NBTTag=(CustomName="§4§lBob Jr",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000),(Id=10,Amplifier=50,Duration=10)],CustomNameVisible=true,IsBaby=true,Equipment=[(id=diamond_sword,Count=1,tag=(ench=[(id=20,lvl=10)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=15,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id=diamond_helmet,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_chestplate,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],AttributeModifiers=[(AttributeName=generic.maxHealth,Name="health",Amount=50,Operation=0,UUIDLeast=1,UUIDMost=1)])),(id=diamond_leggings,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_boots,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)]))])@luck=-2
+
+/BIG BOB
+type=entity,ID=Giant,NBTTag=(CustomName="§4§lBig Bob",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000,(Id=10,Amplifier=50,Duration=10))],CustomNameVisible=true,Equipment=[(id=diamond_sword,Count=1,tag=(ench=[(id=20,lvl=10)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=15,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id=diamond_helmet,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_chestplate,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)],AttributeModifiers=[(AttributeName=generic.maxHealth,Name="health",Amount=50,Operation=0,UUIDLeast=1,UUIDMost=1)])),(id=diamond_leggings,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_boots,Count=1,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)]))])@luck=-2
+
+/FLYING MOBS
+group(type=entity,ID=Pig,amount=80,posOffset=#circleOffset(10),posY=#pPosY+70;type=message,ID="Who said that pigs can't fly?")@luck=-1
+group(type=entity,ID=Cow,amount=80,posOffset=#circleOffset(10),posY=#pPosY+70;type=message,ID="Who said that cow can't fly?")@luck=-1
+group(type=entity,ID=Creeper,amount=80,posOffset=#circleOffset(10),posY=#pPosY+70;type=message,ID="Who said that creepers can't fly?")@luck=-1
+group(type=entity,ID=Witch,amount=80,posOffset=#circleOffset(10),posY=#pPosY+70;type=message,ID="Who said that witches can't fly?")@luck=-1
+group(type=entity,ID=Sheep,amount=80,posOffset=#circleOffset(10),posY=#pPosY+70;type=message,ID="Who said that sheeps can't fly?")@luck=-1
+
+/SUPER CREEPER
+type=entity,ID=Creeper,NBTTag=(powered=1,ExplosionRadius=50,CustomName="$4Big Bomby")@luck=-1
+
+/RANDOM MOB ORDS
+group(type=entity,ID=Zombie,amount=#rand(5,10);type=entity,ID=Skeleton,amount=#rand(5,10))@luck=-1
+group(type=entity,ID=Zombie,amount=#rand(5,10);type=entity,ID=Skeleton,amount=#rand(5,10);type=entity,ID=Spider,amount=#rand(5,10))@luck=-1
+group(type=entity,ID=Zombie,amount=#rand(5,10);type=entity,ID=Skeleton,amount=#rand(5,10);type=entity,ID=Spider,amount=#rand(5,10);type=entity,ID=Witch,amount=#rand(5,10))@luck=-1
+group(type=entity,ID=Zombie,amount=#rand(5,10);type=entity,ID=Skeleton,amount=#rand(5,10);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(type=entity,ID=Zombie,amount=#rand(5,10);type=entity,ID=Skeleton,amount=#rand(5,10);type=entity,ID=Spider,amount=#rand(5,10);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+group(type=entity,ID=Zombie,amount=#rand(5,10);type=entity,ID=Skeleton,amount=#rand(5,10);type=entity,ID=Spider,amount=#rand(5,10);type=entity,ID=Witch,amount=#rand(5,10);type=explosion,radius=4,fire=false,delay=4)@luck=-1
+
+/SPECIAL ZOMBIES
+type=entity,ID=Zombie,NBTTag=(CustomName="Can't Touch This",Invulnerable=1)@luck=-1
+
+/WITHER BOB
+type=entity,ID=Zombie,NBTTag=(CustomName="§4§lWither Bob!",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000),(Id=10,Amplifier=50,Duration=10),(Id=11,Amplifier=3,Duration=1000)],CustomNameVisible=true,Equipment=[(id="lootplusplus:wither_sword",Count=1,tag=(ench=[(id=16,lvl=10)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=50,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id=diamond_boots,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_leggings,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_chestplate,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=skull,Damage=3,Count=1,tag=(SkullOwner=MHF_Enderman))])@luck=-2
+
+/VENOM BOB
+type=entity,ID=Zombie,NBTTag=(CustomName="§4§lVenom Bob!",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000),(Id=10,Amplifier=50,Duration=10),(Id=11,Amplifier=3,Duration=1000)],CustomNameVisible=true,Equipment=[(id="lootplusplus:venom_sword",Count=1,tag=(ench=[(id=16,lvl=10)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=50,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id=diamond_boots,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_leggings,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_chestplate,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=skull,Damage=3,Count=1,tag=(SkullOwner=MHF_Cavespider))])@luck=-2
+
+/HEALER BOB!
+type=entity,ID=Zombie,NBTTag=(CustomName="§4§lHealer Bob!",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000),(Id=10,Amplifier=50,Duration=10),(Id=11,Amplifier=3,Duration=1000)],CustomNameVisible=true,Equipment=[(id="lootplusplus:heal_wand",Count=1,tag=(ench=[(id=16,lvl=100000)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=0,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id=diamond_boots,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_leggings,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_chestplate,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=skull,Damage=3,Count=1,tag=(SkullOwner=#pName))])@luck=2
+
+/PAR BOB
+type=entity,ID=Zombie,NBTTag=(CustomName="§4§lSUPER Bob!",ActiveEffects=[(Id=1,Amplifier=5,Duration=1000),(Id=10,Amplifier=50,Duration=10),(Id=11,Amplifier=3,Duration=1000)],CustomNameVisible=true,Equipment=[(id="lootplusplus:par_wand",Count=1,tag=(ench=[(id=16,lvl=100000)],AttributeModifiers=[(AttributeName=generic.attackDamage,Name="damage",Amount=0,Operation=0,UUIDLeast=1,UUIDMost=1)],Unbreakable=true)),(id=diamond_boots,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_leggings,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=diamond_chestplate,Count=1,Damage=0,tag=(ench=[(id=0,lvl=10),(id=1,lvl=10),(id=34,lvl=10)])),(id=skull,Damage=3,Count=1,tag=(SkullOwner=MHF_Ghast))])@luck=-2
+
+/--------------POTIONS--------------
+
+
+/RANDOM POTIONS
+type=item,ID=potion,NBTTag=(CustomPotionEffects=[(Id=1,Amplifier=100,Duration=2000),(Id=15,Duration=2000),(Id=9,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,damage=16388,NBTTag=(CustomPotionEffects=[(Id=2,Amplifier=100,Duration=2000),(Id=13,Duration=2000),(Id=17,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,NBTTag=(CustomPotionEffects=[(Id=19,Amplifier=100,Duration=2000),(Id=20,Duration=2000),(Id=16,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,NBTTag=(CustomPotionEffects=[(Id=4,Amplifier=100,Duration=2000),(Id=5,Duration=2000),(Id=6,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,NBTTag=(CustomPotionEffects=[(Id=7,Amplifier=100,Duration=2000),(Id=8,Duration=2000),(Id=1,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,NBTTag=(CustomPotionEffects=[(Id=11,Amplifier=100,Duration=2000),(Id=1,Duration=2000),(Id=5,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,NBTTag=(CustomPotionEffects=[(Id=21,Amplifier=100,Duration=2000),(Id=10,Amplifier=7,Duration=2000),(Id=3,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,damage=16388,NBTTag=(CustomPotionEffects=[(Id=4,Amplifier=100,Duration=2000),(Id=9,Duration=2000),(Id=19,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,damage=16388,NBTTag=(CustomPotionEffects=[(Id=35,Amplifier=100,Duration=2000),(Id=3,Duration=2000),(Id=11,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,damage=16388,NBTTag=(CustomPotionEffects=[(Id=18,Amplifier=100,Duration=2000),(Id=2,Duration=2000),(Id=7,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,damage=16388,NBTTag=(CustomPotionEffects=[(Id=1,Amplifier=100,Duration=2000),(Id=15,Duration=2000),(Id=9,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,damage=16388,NBTTag=(CustomPotionEffects=[(Id=5,Amplifier=100,Duration=2000),(Id=8,Duration=2000),(Id=19,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,NBTTag=(CustomPotionEffects=[(Id=19,Amplifier=100,Duration=2000),(Id=20,Duration=2000),(Id=16,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,damage=16388,NBTTag=(CustomPotionEffects=[(Id=1,Amplifier=100,Duration=2000),(Id=4,Duration=2000),(Id=7,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,damage=16388,NBTTag=(CustomPotionEffects=[(Id=7,Amplifier=100,Duration=2000),(Id=8,Duration=2000),(Id=1,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+type=item,ID=potion,NBTTag=(CustomPotionEffects=[(Id=7,Amplifier=100,Duration=2000),(Id=2,Duration=2000),(Id=11,Duration=2000)],display=(Name="Troll Potion",Lore=["Random Potion","Random Effects >:D"]),HideFlags=32)@luck=0
+
+

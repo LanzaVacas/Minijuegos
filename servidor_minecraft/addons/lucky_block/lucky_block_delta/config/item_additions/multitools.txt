@@ -1,0 +1,2 @@
+delta.emerald_scythe_____Emerald Scythe_____sword-hoe_____3_____2000_____9.0_____11.0_____30_____minecraft:emerald_____-1
+delta.emerald_mace_____Emerald Mace_____sword-pickaxe_____3_____2000_____9.0_____11.0_____30_____minecraft:emerald_____-1

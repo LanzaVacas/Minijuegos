@@ -1,0 +1,2 @@
+Night Lucky Block_____lucky:lucky_block_night_____0_____{Luck:80,display:{Name:"Night Very Lucky Block"}}
+Night Lucky Block_____lucky:lucky_block_night_____0_____{Luck:-80,display:{Name:"Night Unlucky Block"}}

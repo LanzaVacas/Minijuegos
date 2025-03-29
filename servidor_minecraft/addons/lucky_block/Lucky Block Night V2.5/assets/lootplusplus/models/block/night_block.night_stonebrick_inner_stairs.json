@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "lootplusplus:blocks/night_block.night_stone_bricks",
+        "top": "lootplusplus:blocks/night_block.night_stone_bricks",
+        "side": "lootplusplus:blocks/night_block.night_stone_bricks"
+    }
+}

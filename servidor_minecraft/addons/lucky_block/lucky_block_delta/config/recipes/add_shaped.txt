@@ -1,0 +1,62 @@
+# Food
+lootplusplus:delta.emerald_apple_____1_____0_____{}_____rrr,rar,rrr_____r_____"gemEmerald"_____0_____{}_____a_____minecraft:apple_____0_____{}
+lootplusplus:delta.enchanted_emerald_apple_____1_____0_____{}_____rrr,rar,rrr_____r_____"blockEmerald"_____0_____{}_____a_____minecraft:apple_____0_____{}
+
+# Tools/Weapons
+lootplusplus:delta.emerald_sword_____1_____0_____{}_____r,r,s_____r_____"gemEmerald"_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.darkness_blade_____1_____0_____{}_____r,r,s_____r_____lootplusplus:delta.dark_iron_ingot_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.emerald_heavy_sword_____1_____0_____{}_____ rr,rbr,sr _____r_____"gemEmerald"_____0_____{}_____s_____"stickWood"_____0_____{}_____b_____"blockEmerald"_____0_____{}
+lootplusplus:delta.emerald_pickaxe_____1_____0_____{}_____rrr, s , s _____r_____"gemEmerald"_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.emerald_shovel_____1_____0_____{}_____r,s,s_____r_____"gemEmerald"_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.emerald_axe_____1_____0_____{}_____rr,rs, s_____r_____"gemEmerald"_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.emerald_hoe_____1_____0_____{}_____rr, s, s_____r_____"gemEmerald"_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.emerald_scythe_____1_____0_____{}_____ rr,r s,  s_____r_____"gemEmerald"_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.emerald_bow_____1_____0_____{}_____ rs,r s, rs_____r_____"gemEmerald"_____0_____{}_____s_____minecraft:string_____0_____{}
+lootplusplus:delta.emerald_mace_____1_____0_____{}_____ rr, sr,s  _____r_____"gemEmerald"_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.poison_dagger_____1_____0_____{display:{Lore:["May poison your foe."]}}_____ r , i , s _____i_____"ingotIron"_____0_____{}_____r_____minecraft:spider_eye_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.shadow_blade_____1_____0_____{display:{Lore:["Blinds opponents when hit."]}}_____ o , o , s _____o_____minecraft:obsidian_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.glass_blade_____1_____0_____{}_____ g , g , s _____g_____minecraft:glass_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.master_sword_____1_____0_____{display:{Lore:["Only usable by the Chosen Hero"]}}_____ ei, ie,s  _____e_____"gemEmerald"_____0_____{}_____i_____"ingotIron"_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.energy_sword_____1_____0_____{display:{Lore:["Killng Spree..."]}}_____r r,r r,rir_____r_____"blockRedstone"_____0_____{}_____i_____"blockIron"_____0_____{}
+lootplusplus:delta.life_sword_____1_____0_____{display:{Lore:["Saps opponent's life... and adds to yours!"]}}_____ l , l , s _____l_____lootplusplus:delta.life_ingot_____0_____{}_____s_____"stickWood"_____0_____{}
+lootplusplus:delta.red_lightsaber_____1_____0_____{display:{Lore:["Red."]}}_____ d , c , h _____d_____minecraft:dye_____1_____{}_____c_____lootplusplus:delta.lightsaber_core_____0_____{}_____h_____lootplusplus:delta.lightsaber_handle_____0_____{}
+lootplusplus:delta.green_lightsaber_____1_____0_____{display:{Lore:["Green."]}}_____ d , c , h _____d_____minecraft:dye_____2_____{}_____c_____lootplusplus:delta.lightsaber_core_____0_____{}_____h_____lootplusplus:delta.lightsaber_handle_____0_____{}
+lootplusplus:delta.purple_lightsaber_____1_____0_____{display:{Lore:["Purple."]}}_____ d , c , h _____d_____minecraft:dye_____5_____{}_____c_____lootplusplus:delta.lightsaber_core_____0_____{}_____h_____lootplusplus:delta.lightsaber_handle_____0_____{}
+lootplusplus:delta.yellow_lightsaber_____1_____0_____{display:{Lore:["Yellow."]}}_____ d , c , h _____d_____minecraft:dye_____11_____{}_____c_____lootplusplus:delta.lightsaber_core_____0_____{}_____h_____lootplusplus:delta.lightsaber_handle_____0_____{}
+lootplusplus:delta.blue_lightsaber_____1_____0_____{display:{Lore:["Blue."]}}_____ d , c , h _____d_____minecraft:dye_____4_____{}_____c_____lootplusplus:delta.lightsaber_core_____0_____{}_____h_____lootplusplus:delta.lightsaber_handle_____0_____{}
+
+
+
+# Armor
+lootplusplus:delta.emerald_helmet_____1_____0_____{}_____rrr,r r_____r_____"gemEmerald"_____0_____{}
+lootplusplus:delta.emerald_chestplate_____1_____0_____{}_____r r,rrr,rrr_____r_____"gemEmerald"_____0_____{}
+lootplusplus:delta.emerald_leggings_____1_____0_____{}_____rrr,r r,r r_____r_____"gemEmerald"_____0_____{}
+lootplusplus:delta.emerald_boots_____1_____0_____{}_____r r,r r_____r_____"gemEmerald"_____0_____{}
+lootplusplus:delta.shadow_helmet_____1_____0_____{}_____rrr,r r_____r_____minecraft:obsidian_____0_____{}
+lootplusplus:delta.shadow_chestplate_____1_____0_____{}_____r r,rrr,rrr_____r_____minecraft:obsidian_____0_____{}
+lootplusplus:delta.shadow_leggings_____1_____0_____{}_____rrr,r r,r r_____r_____minecraft:obsidian_____0_____{}
+lootplusplus:delta.shadow_boots_____1_____0_____{}_____r r,r r_____r_____minecraft:obsidian_____0_____{}
+lootplusplus:delta.life_helmet_____1_____0_____{}_____rrr,r r_____r_____lootplusplus:delta.life_ingot_____0_____{}
+lootplusplus:delta.life_chestplate_____1_____0_____{}_____r r,rrr,rrr_____r_____lootplusplus:delta.life_ingot_____0_____{}
+lootplusplus:delta.life_leggings_____1_____0_____{}_____rrr,r r,r r_____r_____lootplusplus:delta.life_ingot_____0_____{}
+lootplusplus:delta.life_boots_____1_____0_____{}_____r r,r r_____r_____lootplusplus:delta.life_ingot_____0_____{}
+lootplusplus:delta.storm_helmet_____1_____0_____{}_____rrr,r r_____r_____lootplusplus:delta.white_iron_ingot_____0_____{}
+lootplusplus:delta.storm_chestplate_____1_____0_____{}_____r r,rrr,rrr_____r_____lootplusplus:delta.white_iron_ingot_____0_____{}
+lootplusplus:delta.storm_leggings_____1_____0_____{}_____rrr,r r,r r_____r_____lootplusplus:delta.white_iron_ingot_____0_____{}
+lootplusplus:delta.storm_boots_____1_____0_____{}_____r r,r r_____r_____lootplusplus:delta.white_iron_ingot_____0_____{}
+lootplusplus:delta.darkness_helmet_____1_____0_____{}_____rrr,r r_____r_____lootplusplus:delta.dark_iron_ingot_____0_____{}
+lootplusplus:delta.darkness_chestplate_____1_____0_____{}_____r r,rcr,rrr_____r_____lootplusplus:delta.dark_iron_ingot_____0_____{}_____c_____lootplusplus:delta.lightsaber_core_____0_____{}
+lootplusplus:delta.darkness_leggings_____1_____0_____{}_____rrr,r r,r r_____r_____lootplusplus:delta.dark_iron_ingot_____0_____{}
+lootplusplus:delta.darkness_boots_____1_____0_____{}_____r r,r r_____r_____lootplusplus:delta.dark_iron_ingot_____0_____{}
+
+
+# Generic
+lootplusplus:delta.lightsaber_handle_____1_____0_____{display:{Lore:["Useless by itself as a weapon."]}}_____ i ,ibi, i _____i_____"ingotIron"_____0_____{}_____b_____minecraft:blaze_rod_____0_____{}
+lootplusplus:delta.lightsaber_core_____1_____0_____{display:{Lore:["Compressed energy of the Nether","and End forms this powerful object."]}}_____geg,ene,geg_____g_____minecraft:glass_____0_____{}_____e_____minecraft:ender_pearl_____0_____{}_____n_____minecraft:nether_star_____0_____{}
+
+
+
+
+
+
+
