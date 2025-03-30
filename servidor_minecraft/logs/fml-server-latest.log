@@ -5360,3 +5360,326 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [04:45:23] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:1xitem.bootsGold@0, 2:null, 3:null, 4:null}
 [04:45:26] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
 [04:45:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:46:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:47:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:47:55] [Netty Epoll Server IO #0/TRACE] [FML/]: Handshake channel activating
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: HELLO
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:47:55] [Netty Epoll Server IO #0/INFO] [FML/]: Client protocol version 2
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: HELLO
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:47:55] [Netty Epoll Server IO #0/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:47:55] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: COMPLETE
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
+[04:47:55] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:47:55] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
+[04:47:55] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:48:02] [Netty Epoll Server IO #1/TRACE] [FML/]: Handshake channel activating
+[04:48:02] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:48:02] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[04:48:02] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:48:02] [Netty Epoll Server IO #1/INFO] [FML/]: Client protocol version 2
+[04:48:02] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[04:48:02] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:48:02] [Netty Epoll Server IO #1/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:48:02] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:48:02] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:48:02] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:48:02] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[04:48:03] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:48:03] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:48:03] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:48:03] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:48:03] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:48:03] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:48:03] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:48:03] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:48:06] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:48:12] [Netty Epoll Server IO #2/TRACE] [FML/]: Handshake channel activating
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:48:12] [Netty Epoll Server IO #2/INFO] [FML/]: Client protocol version 2
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:48:12] [Netty Epoll Server IO #2/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:48:12] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: COMPLETE
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:48:12] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:48:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:48:12] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:48:12] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:9xitem.appleGold@0, 1:null, 2:null, 3:null, 4:null}
+[04:48:18] [Netty Epoll Server IO #3/TRACE] [FML/]: Handshake channel activating
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:48:18] [Netty Epoll Server IO #3/INFO] [FML/]: Client protocol version 2
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:48:18] [Netty Epoll Server IO #3/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:48:18] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: COMPLETE
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:48:18] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:48:18] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:48:18] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:8xitem.appleGold@0, 1:null, 2:null, 3:null, 4:null}
+[04:48:21] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:7xitem.appleGold@0, 1:null, 2:null, 3:null, 4:null}
+[04:48:39] [Netty Epoll Server IO #0/TRACE] [FML/]: Handshake channel activating
+[04:48:39] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:48:39] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: HELLO
+[04:48:39] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:48:39] [Netty Epoll Server IO #0/INFO] [FML/]: Client protocol version 2
+[04:48:39] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: HELLO
+[04:48:39] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:48:39] [Netty Epoll Server IO #0/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:48:39] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:48:39] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:48:39] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:48:39] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: COMPLETE
+[04:48:40] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:48:40] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
+[04:48:40] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:48:40] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
+[04:48:40] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:48:40] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:48:40] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
+[04:48:40] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:48:47] [Netty Epoll Server IO #1/TRACE] [FML/]: Handshake channel activating
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:48:47] [Netty Epoll Server IO #1/INFO] [FML/]: Client protocol version 2
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:48:47] [Netty Epoll Server IO #1/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:48:47] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:48:47] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:48:47] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:48:47] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:48:50] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:48:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:49:08] [Netty Epoll Server IO #2/TRACE] [FML/]: Handshake channel activating
+[04:49:08] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:49:08] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:49:09] [Netty Epoll Server IO #2/INFO] [FML/]: Client protocol version 2
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:49:09] [Netty Epoll Server IO #2/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:49:09] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: COMPLETE
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:49:09] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:49:09] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:49:09] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:49:17] [Netty Epoll Server IO #3/TRACE] [FML/]: Handshake channel activating
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:49:17] [Netty Epoll Server IO #3/INFO] [FML/]: Client protocol version 2
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:49:17] [Netty Epoll Server IO #3/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:49:17] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: COMPLETE
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:49:17] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:49:17] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:49:17] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:49:20] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:49:38] [Netty Epoll Server IO #1/TRACE] [FML/]: Handshake channel activating
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:49:38] [Netty Epoll Server IO #1/INFO] [FML/]: Client protocol version 2
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:49:38] [Netty Epoll Server IO #1/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:49:38] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:49:38] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:49:38] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:49:38] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:49:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:50:13] [Netty Epoll Server IO #2/TRACE] [FML/]: Handshake channel activating
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:50:13] [Netty Epoll Server IO #2/INFO] [FML/]: Client protocol version 2
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:50:13] [Netty Epoll Server IO #2/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:50:13] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: COMPLETE
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:50:13] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:50:13] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:50:13] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:50:17] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:1xitem.hatchetGold@0, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:1xitem.helmetGold@0}
+[04:50:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:51:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:51:30] [Netty Epoll Server IO #3/TRACE] [FML/]: Handshake channel activating
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:51:30] [Netty Epoll Server IO #3/INFO] [FML/]: Client protocol version 2
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:51:30] [Netty Epoll Server IO #3/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:51:30] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: COMPLETE
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:51:30] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:51:30] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:51:30] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:51:34] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:5xitem.appleGold@0, 1:null, 2:null, 3:null, 4:null}
+[04:51:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:52:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:53:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:53:28] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:1xitem.bootsGold@0, 2:1xitem.leggingsGold@0, 3:1xitem.chestplateGold@0, 4:null}
+[04:53:28] [Netty Epoll Server IO #0/TRACE] [FML/]: Handshake channel activating
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: HELLO
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:53:28] [Netty Epoll Server IO #0/INFO] [FML/]: Client protocol version 2
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: HELLO
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:53:28] [Netty Epoll Server IO #0/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:53:28] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: COMPLETE
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
+[04:53:28] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:53:28] [Netty Epoll Server IO #0/DEBUG] [FML/]:   Next: DONE
+[04:53:28] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:13xitem.appleGold@0, 1:null, 2:null, 3:null, 4:null}
+[04:53:31] [Netty Epoll Server IO #1/TRACE] [FML/]: Handshake channel activating
+[04:53:31] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:53:31] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[04:53:31] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:53:31] [Netty Epoll Server IO #1/INFO] [FML/]: Client protocol version 2
+[04:53:31] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[04:53:31] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:53:31] [Netty Epoll Server IO #1/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:53:31] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:53:31] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:53:31] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:53:31] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[04:53:32] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:53:32] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:53:32] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:53:32] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:53:32] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:53:32] [Netty Epoll Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:53:32] [Netty Epoll Server IO #1/DEBUG] [FML/]:   Next: DONE
+[04:53:32] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:2xitem.appleGold@0, 1:null, 2:null, 3:null, 4:null}
+[04:53:36] [Netty Epoll Server IO #2/TRACE] [FML/]: Handshake channel activating
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:53:36] [Netty Epoll Server IO #2/INFO] [FML/]: Client protocol version 2
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:53:36] [Netty Epoll Server IO #2/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:53:36] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: COMPLETE
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:53:36] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:53:36] [Netty Epoll Server IO #2/DEBUG] [FML/]:   Next: DONE
+[04:53:37] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:13xitem.appleGold@0, 1:null, 2:null, 3:null, 4:null}
+[04:53:38] [Netty Epoll Server IO #3/TRACE] [FML/]: Handshake channel activating
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[04:53:38] [Netty Epoll Server IO #3/INFO] [FML/]: Client protocol version 2
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[04:53:38] [Netty Epoll Server IO #3/INFO] [FML/]: Client attempting to join with 7 mods : lucky@7.0.2,offlineskins@1.8.9-v4,FML@8.0.99.99,lootplusplus@1.7.1_for_1.8.9,potioncore@1.2_for_1.8.9,Forge@11.15.1.2318,mcp@9.19
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: WAITINGCACK
+[04:53:38] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: COMPLETE
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:53:38] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[04:53:38] [Netty Epoll Server IO #3/DEBUG] [FML/]:   Next: DONE
+[04:53:38] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:53:39] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:13xitem.appleGold@0, 1:null, 2:null, 3:null, 4:null}
+[04:53:41] [Server thread/INFO] [FML/]: [Potion Core] Equipment: [0:null, 1:null, 2:null, 3:null, 4:null}
+[04:54:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:54:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:55:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[04:56:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
