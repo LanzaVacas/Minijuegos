@@ -102,3 +102,157 @@ java.util.NoSuchElementException: packet_handler
 [04:36:25] [Server thread/INFO]: Axlgmp311 left the game
 [04:36:29] [Server thread/INFO]: Axlgmp311[/100.79.55.69:52976] logged in with entity id 200 at (867.0652585454294, 33.7247217189768, 1884.4517769860558)
 [04:36:29] [Server thread/INFO]: Axlgmp311 joined the game
+[04:36:33] [Server thread/WARN]: Axlgmp311 was kicked for floating too long!
+[04:36:33] [Server thread/INFO]: Axlgmp311 lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:36:33] [Server thread/INFO]: Axlgmp311 left the game
+[04:36:37] [Server thread/INFO]: Axlgmp311[/100.79.55.69:52979] logged in with entity id 201 at (867.0652585454294, -133.6234253301044, 1884.4517769860558)
+[04:36:37] [Server thread/INFO]: Axlgmp311 joined the game
+[04:36:38] [Server thread/INFO]: Axlgmp311 fell out of the world
+[04:36:53] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:36:53] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:36:53] [Server thread/INFO]: SheLanza left the game
+[04:36:58] [Server thread/INFO]: SheLanza[/100.68.192.95:54231] logged in with entity id 203 at (851.9399944843798, 32.762863109511464, 1888.2503364527283)
+[04:36:58] [Server thread/INFO]: SheLanza joined the game
+[04:37:02] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:37:02] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:37:02] [Server thread/INFO]: SheLanza left the game
+[04:37:04] [Server thread/INFO]: SheLanza[/100.68.192.95:54237] logged in with entity id 247 at (851.9399944843798, -137.16948425769743, 1888.2503364527283)
+[04:37:04] [Server thread/INFO]: SheLanza joined the game
+[04:37:06] [Server thread/INFO]: SheLanza fell out of the world
+[04:37:45] [Netty Epoll Server IO #3/INFO]: HollowScraps was slain by SheLanza
+[04:38:22] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:38:22] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:38:22] [Server thread/INFO]: HollowScraps left the game
+[04:38:28] [Server thread/INFO]: HollowScraps[/100.121.249.95:56866] logged in with entity id 258 at (872.5096367006034, -15.971505884210341, 1883.647285623758)
+[04:38:28] [Server thread/INFO]: HollowScraps joined the game
+[04:38:32] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:38:32] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:38:32] [Server thread/INFO]: HollowScraps left the game
+[04:38:36] [Server thread/INFO]: HollowScraps[/100.121.249.95:56877] logged in with entity id 259 at (872.5096367006034, -208.59375428927055, 1883.647285623758)
+[04:38:36] [Server thread/INFO]: HollowScraps joined the game
+[04:38:38] [Server thread/INFO]: HollowScraps has just earned the achievement [Taking Inventory]
+[04:38:41] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:38:41] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:38:41] [Server thread/INFO]: HollowScraps left the game
+[04:38:44] [Server thread/INFO]: HollowScraps[/100.121.249.95:56886] logged in with entity id 260 at (872.5096367006034, -476.8345247892005, 1883.647285623758)
+[04:38:44] [Server thread/INFO]: HollowScraps joined the game
+[04:38:46] [Server thread/INFO]: HollowScraps fell out of the world
+[04:39:29] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:39:29] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:39:29] [Server thread/INFO]: HollowScraps left the game
+[04:39:33] [Server thread/INFO]: HollowScraps[/100.121.249.95:56950] logged in with entity id 263 at (877.08196854366, 35.04118884000024, 1882.6933411539242)
+[04:39:33] [Server thread/INFO]: HollowScraps joined the game
+[04:39:38] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:39:38] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:39:38] [Server thread/INFO]: HollowScraps left the game
+[04:39:41] [Server thread/INFO]: HollowScraps[/100.121.249.95:56962] logged in with entity id 267 at (877.08196854366, -134.01220930257847, 1882.6933411539242)
+[04:39:41] [Server thread/INFO]: HollowScraps joined the game
+[04:39:43] [Server thread/INFO]: HollowScraps fell out of the world
+[04:39:53] [Server thread/INFO]: HollowScraps was slain by SheLanza
+[04:40:04] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:40:04] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:40:04] [Server thread/INFO]: HollowScraps left the game
+[04:40:07] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:40:07] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:40:07] [Server thread/INFO]: SheLanza left the game
+[04:40:09] [Server thread/INFO]: SheLanza[/100.68.192.95:54340] logged in with entity id 270 at (826.8609187311932, 35.04118884000024, 1872.5747852141806)
+[04:40:09] [Server thread/INFO]: SheLanza joined the game
+[04:40:11] [Server thread/INFO]: Axlgmp311 tried to swim in lava
+[04:40:14] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:40:14] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:40:14] [Server thread/INFO]: SheLanza left the game
+[04:40:16] [Server thread/INFO]: SheLanza[/100.68.192.95:54345] logged in with entity id 272 at (826.8609187311932, -133.08558514857222, 1872.5747852141806)
+[04:40:16] [Server thread/INFO]: SheLanza joined the game
+[04:40:18] [Server thread/INFO]: SheLanza fell out of the world
+[04:40:35] [Server thread/INFO]: HollowScraps[/100.121.249.95:57066] logged in with entity id 274 at (826.0773376864798, 34.35095365359194, 1871.9860426952357)
+[04:40:35] [Server thread/INFO]: HollowScraps joined the game
+[04:40:40] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:40:40] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:40:40] [Server thread/INFO]: HollowScraps left the game
+[04:40:44] [Server thread/INFO]: HollowScraps[/100.121.249.95:57078] logged in with entity id 275 at (826.0773376864798, -134.70244448898677, 1871.9860426952357)
+[04:40:44] [Server thread/INFO]: HollowScraps joined the game
+[04:40:46] [Server thread/INFO]: HollowScraps fell out of the world
+[04:41:12] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:41:12] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:41:12] [Server thread/INFO]: HollowScraps left the game
+[04:41:16] [Server thread/INFO]: HollowScraps[/100.121.249.95:57125] logged in with entity id 277 at (824.768174801729, 62.21797027408097, 1872.2275896967865)
+[04:41:16] [Server thread/INFO]: HollowScraps joined the game
+[04:41:20] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:41:20] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:41:20] [Server thread/INFO]: HollowScraps left the game
+[04:41:29] [Server thread/INFO]: HollowScraps[/100.121.249.95:57140] logged in with entity id 278 at (824.768174801729, -98.95755075480915, 1872.2275896967865)
+[04:41:29] [Server thread/INFO]: HollowScraps joined the game
+[04:41:31] [Server thread/INFO]: HollowScraps fell out of the world
+[04:42:57] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:42:57] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:42:57] [Server thread/INFO]: HollowScraps left the game
+[04:43:10] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:43:10] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:43:10] [Server thread/INFO]: SheLanza left the game
+[04:43:11] [Server thread/INFO]: HollowScraps[/100.121.249.95:57286] logged in with entity id 282 at (854.4682081937492, 35.04118884000024, 1898.3975076470379)
+[04:43:11] [Server thread/INFO]: HollowScraps joined the game
+[04:43:17] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:43:17] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:43:17] [Server thread/INFO]: HollowScraps left the game
+[04:43:19] [Server thread/INFO]: SheLanza[/100.68.192.95:53434] logged in with entity id 283 at (852.7730730405689, 13.936351764142403, 1888.2377996980547)
+[04:43:19] [Server thread/INFO]: SheLanza joined the game
+[04:43:20] [Server thread/INFO]: HollowScraps[/100.121.249.95:57302] logged in with entity id 284 at (854.4682081937492, -134.0127106032798, 1898.3975076470379)
+[04:43:20] [Server thread/INFO]: HollowScraps joined the game
+[04:43:22] [Server thread/INFO]: HollowScraps fell out of the world
+[04:43:23] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:43:23] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:43:23] [Server thread/INFO]: SheLanza left the game
+[04:43:25] [Server thread/INFO]: SheLanza[/100.68.192.95:53439] logged in with entity id 285 at (852.7730730405689, -162.1198391027102, 1888.2377996980547)
+[04:43:25] [Server thread/INFO]: SheLanza joined the game
+[04:43:26] [Server thread/INFO]: SheLanza fell out of the world
+[04:43:55] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:43:55] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:43:55] [Server thread/INFO]: HollowScraps left the game
+[04:44:01] [Server thread/WARN]: Axlgmp311 was kicked for floating too long!
+[04:44:01] [Server thread/INFO]: Axlgmp311 lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:44:01] [Server thread/INFO]: Axlgmp311 left the game
+[04:44:02] [Server thread/INFO]: HollowScraps[/100.121.249.95:57374] logged in with entity id 288 at (834.0659427444627, 72.3362186666644, 1870.1243482043587)
+[04:44:02] [Server thread/INFO]: HollowScraps joined the game
+[04:44:06] [Server thread/INFO]: Axlgmp311[/100.79.55.69:53079] logged in with entity id 289 at (827.3387194959537, -43.80555750289649, 1873.4468686914538)
+[04:44:06] [Server thread/INFO]: Axlgmp311 joined the game
+[04:44:08] [Server thread/WARN]: HollowScraps was kicked for floating too long!
+[04:44:08] [Server thread/INFO]: HollowScraps lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:44:08] [Server thread/INFO]: HollowScraps left the game
+[04:44:10] [Server thread/INFO]: Axlgmp311 fell out of the world
+[04:44:11] [Server thread/INFO]: HollowScraps[/100.121.249.95:57384] logged in with entity id 290 at (834.0659427444627, -86.18594164087568, 1870.1243482043587)
+[04:44:11] [Server thread/INFO]: HollowScraps joined the game
+[04:44:14] [Server thread/INFO]: HollowScraps fell out of the world
+[04:44:26] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:44:26] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:44:26] [Server thread/INFO]: SheLanza left the game
+[04:44:28] [Server thread/INFO]: SheLanza[/100.68.192.95:53481] logged in with entity id 292 at (822.041660313118, 36.808953667678395, 1868.381775230112)
+[04:44:28] [Server thread/INFO]: SheLanza joined the game
+[04:44:32] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:44:32] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:44:32] [Server thread/INFO]: SheLanza left the game
+[04:44:34] [Server thread/INFO]: SheLanza[/100.68.192.95:53486] logged in with entity id 293 at (822.041660313118, -131.38338357268094, 1868.381775230112)
+[04:44:34] [Server thread/INFO]: SheLanza joined the game
+[04:44:37] [Server thread/INFO]: SheLanza fell out of the world
+[04:44:50] [Server thread/WARN]: Axlgmp311 was kicked for floating too long!
+[04:44:50] [Server thread/INFO]: Axlgmp311 lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:44:50] [Server thread/INFO]: Axlgmp311 left the game
+[04:44:54] [Server thread/INFO]: Axlgmp311[/100.79.55.69:53082] logged in with entity id 295 at (867.3067762134123, -10.896699733118368, 1884.7104931459762)
+[04:44:54] [Server thread/INFO]: Axlgmp311 joined the game
+[04:44:58] [Server thread/INFO]: Axlgmp311 fell out of the world
+[04:44:58] [Server thread/WARN]: Axlgmp311 was kicked for floating too long!
+[04:44:58] [Server thread/WARN]: Axlgmp311 was kicked for floating too long!
+[04:44:58] [Server thread/INFO]: Axlgmp311 lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:44:58] [Server thread/INFO]: Axlgmp311 left the game
+[04:45:02] [Server thread/INFO]: Axlgmp311[/100.79.55.69:53086] logged in with entity id 296 at (867.3067762134123, -203.5138133686238, 1884.7104931459762)
+[04:45:02] [Server thread/INFO]: Axlgmp311 joined the game
+[04:45:12] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:45:12] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:45:12] [Server thread/INFO]: SheLanza left the game
+[04:45:15] [Server thread/INFO]: SheLanza[/100.68.192.95:53517] logged in with entity id 298 at (856.0329063740867, 36.808953667678395, 1879.1330455966834)
+[04:45:15] [Server thread/INFO]: SheLanza joined the game
+[04:45:19] [Server thread/WARN]: SheLanza was kicked for floating too long!
+[04:45:19] [Server thread/INFO]: SheLanza lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:45:19] [Server thread/INFO]: SheLanza left the game
+[04:45:22] [Server thread/INFO]: SheLanza[/100.68.192.95:53523] logged in with entity id 299 at (856.0329063740867, -131.38338357268094, 1879.1330455966834)
+[04:45:22] [Server thread/INFO]: SheLanza joined the game
+[04:45:24] [Server thread/INFO]: SheLanza fell out of the world
